@@ -1,0 +1,24 @@
+xz<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Clientes</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Ordens de Serviço</h1>
+        <nav>
+            <a href="/">Home</a> | 
+            <a href="/clientes">Clientes</a> | 
+            <a href="/clientes/novo">Novo Cliente</a>
+            <a href="/ordens_de_servico">Listar Ordens de Serviço</a>
+            <a href="/criar_ordem_de_servico">Criar Nova Ordem de Serviço</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
